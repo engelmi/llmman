@@ -3,6 +3,9 @@
 debug
 target
 
+rpmbuild
+llmman.spec
+
 # `go build ./...` in go-shim/ with no -o writes a binary named after the
 # package directory itself (this is a C-archive/plugin package normally
 # only ever built via `go build -buildmode=c-archive`, cgo from Cargo, or
